@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Boredom.com</title>
+        <style>
+          body{
+            background-color: beige;
+            margin: 0%;
+          }
+          section{
+            margin: 5px;
+          }
+          h1{
+            margin: 5px;
+          }
+          nav ul{
+            list-style-type: none;
+            margin: 0%;
+            padding: 0;
+            background-color: brown;
+            overflow: hidden;
+          }
+          nav a{
+            text-decoration: none;
+            color: white;
+            padding: 20px;
+            display: block;
+            text-align: center;
+          }
+          nav li a:hover{
+             background-color: rgb(214, 163, 163);
+          }
+          nav li{
+            float: left;
+          }
+          h3{
+            text-align: center;
+          }
+          form{
+            text-align: center;
+            border-style: double;
+            border-width: 5px;
+          }
+        </style>
+    </head>
+    <body>
+        <nav>
+        <ul>
+            <li><a href="">Home page</a></li>
+            <li><a href="">About</a> </li>
+            <li><a href="">Community</a></li>
+            <li><a href="">Contact Me</a></li>
+        </ul>
+        </nav>
+<h1>Welcome to boredom.com</h1>
+<section>
+    <p>I have begun my tech journey with ALX.</p>
+    <p>i have completed the foundations </p>
+    <p>And i will officially start the frontend developer cousre on the 27th of May</p>
+    <p>i am excited!</p>
+</section>
+<section>
+    <h2>Basic html forms....</h2>
+    <h3>Create an account with Boredom.com</h3>
+    <form>
+        <label>First Name:
+           <input type="text" name="First Name" required>
+        </label>
+        <br><br>
+        <label>last Name:
+            <input type="text" name="Last Name" required>
+        </label>
+        <br><br>
+        <label>Other Names(optional):
+            <input type="text" name="Other Names">
+        </label>
+        <br><br>
+        <label>Date of birth:
+            <input type="date" required>
+        </label>
+        <br><br>
+        <lable>Gender:
+               <label>Male
+                      <input type="radio" name="gender" required>
+               </label>
+               <label>Female
+                       <input type="radio" name="gender" required>
+               </label>
+        </lable>
+        <br><br>
+        <label>Email Address:
+            <input type="email" required placeholder="Misan@example.com">
+        </label>
+        <br><br>
+        <button>Create account</button>
+    </form>
+</section>
+    </body>
+</html>
